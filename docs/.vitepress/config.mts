@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/anjsxz/",
   title: "anjsxz web page",
   description: "ai & web3",
   themeConfig: {
