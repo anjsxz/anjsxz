@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>anjsxz&#39;s blog</title>
+    <link>//localhost:10505///anjsxz.github.io/anjsxz/</link>
+    <description>Recent content on anjsxz&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 10 Jul 2025 22:52:05 +0800</lastBuildDate>
+    <atom:link href="//localhost:10505///anjsxz.github.io/anjsxz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>//localhost:10505///anjsxz.github.io/anjsxz/posts/first/</link>
+      <pubDate>Thu, 10 Jul 2025 22:52:05 +0800</pubDate>
+      <guid>//localhost:10505///anjsxz.github.io/anjsxz/posts/first/</guid>
+      <description>&lt;p&gt;first page ok&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
