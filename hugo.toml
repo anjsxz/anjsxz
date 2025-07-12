@@ -1,7 +1,69 @@
 baseURL = 'http://anjsxz.github.io/anjsxz/'
 languageCode = 'zh-CN'
-title = "anjsxz's blog"
+title = "anjsxz's webpage"
 theme = "hugo-PaperMod"
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+[params]
+comments = false
+ShowCodeCopyButtons = true
+ShowBreadCrumbs = false
+ShowReadingTime = true
+ShowShareButtons = true
+disableThemeToggle = false
+
+  [params.assets]
+  favicon = "https://raw.githubusercontent.com/anjsxz/picx-images-hosting/refs/heads/master/anjsxz.45yxeph9c.webp"
+  iconHeight = 35
+
+  [params.homeInfoParams]
+  Title = "anjsxz's webpage"
+  Content = """
+  <p>欢迎来到我的个人网站！</p>
+"""
+
+  [params.profileMode]
+  enabled = false
+
+  [params.label]
+  text = "anjsxz"
+  icon = "https://raw.githubusercontent.com/anjsxz/picx-images-hosting/refs/heads/master/anjsxz.45yxeph9c.webp"
+  iconHeight = 35
+
+  [[params.socialIcons]]
+  name = "bilibili"
+  url = ""
+
+  [[params.socialIcons]]
+  name = "github"
+  url = ""
+
+  [[params.socialIcons]]
+  name = "telegram"
+  url = ""
+
+[[menu.main]]
+identifier = "categories"
+name = "分类"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "标签"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "归档"
+url = "/archives/"
+weight = 30
+
+[[menu.main]]
+identifier = "search"
+name = "搜索"
+url = "/search/"
+weight = 40
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
