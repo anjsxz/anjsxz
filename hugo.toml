@@ -1,4 +1,7 @@
 baseURL = 'http://anjsxz.github.io/anjsxz/'
 languageCode = 'zh-CN'
 title = "anjsxz's blog"
-theme = "ananke"
+theme = "hugo-PaperMod"
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
