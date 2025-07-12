@@ -9,9 +9,16 @@ ShowBreadCrumbs = false
 ShowReadingTime = true
 ShowShareButtons = true
 disableThemeToggle = false
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.proxies]]
+    from = "/images/"
+    to = "https://raw.githubusercontent.com/"
 
   [params.assets]
-  favicon = "https://raw.githubusercontent.com/anjsxz/picx-images-hosting/refs/heads/master/anjsxz.45yxeph9c.webp"
+  favicon = "images/anjsxz/picx-images-hosting/refs/heads/master/anjsxz.45yxeph9c.webp"
   iconHeight = 35
 
   [params.homeInfoParams]
@@ -25,7 +32,7 @@ disableThemeToggle = false
 
   [params.label]
   text = "anjsxz"
-  icon = "https://raw.githubusercontent.com/anjsxz/picx-images-hosting/refs/heads/master/anjsxz.45yxeph9c.webp"
+  icon = "images/anjsxz/picx-images-hosting/refs/heads/master/anjsxz.45yxeph9c.webp"
   iconHeight = 35
 
   [[params.socialIcons]]
